@@ -1,0 +1,61 @@
+DEFAULT:
+  DeviceDataPath: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/Device_Data"
+  IntervalDataGenerator: 1
+  NumberOfSamplesGenerated: 50
+  MessageBrokerHost: "localhost"
+  RunningMode: "parallel"
+  QueueBase: "Queue"
+  InputDimension: 467
+  OutputDimension: 2
+  NumberOfParticipants: 5
+  Epochs : 1
+  LearningRate: 10
+  Precision: 10000
+  WaitingTime: 5
+  BatchSize: 5
+  Rounds : 8
+  KtopModels: 2
+  TestFilePath: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/Device_Data/"
+  TrainFilePath: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/Device_Data/"
+  IntervalTime: 5
+  PercentOfDataGenerated: 0.0086
+  NeuralNetworkPackage: 2
+  Aggregation: "on-chain"
+  PerformProof: True
+  WriteOnIPFS: True
+  Gas: 100000000000000
+  ResponseVariable: "Activity"
+  EtheriumRPCServer: "http://127.0.0.1:8545"
+  FLContractAddress: "0xf5a2048301f51054Db39FD102b70A20b0390422f"
+  VerifierContractAddress: "0x6221D2F7416A283BBB75cfAd3FB5119739413Be5"
+  ZokratesPath: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/Verification/ZoKrates/finalRoot.zok"
+  CairoBasePath: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/Verification/Cairo/" 
+  VerificationBase: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/Verification/SAVED_VERIFYER_Genome/"
+  FLContractABIPAth: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/ContractsABI/FLABI.json"
+  AnalyticsOutBase: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/OUTputs/"
+  IPFSDataPath: "/home/iman/projects/kara/blockchain_based_Federated_learning/federatedlearning/codes/Devices/IPFSStorage/"
+  IPFSclientID: "/ip4/127.0.0.1/tcp/5001/http"
+  TumorType : [0,1]
+  Activities : [5, 11, 12, 14, 15, 17]
+  ActivitiesEncoded : [0,1,2,3,4,5]
+  ActivityMappings:
+    2: 1
+    3: 1
+    4: 1
+    16: 15
+    6: 5
+    10: 11
+    13: 14
+    7: 1
+  ActivityEncoding:
+    5: 0
+    11: 1
+    12: 2
+    14: 3
+    15: 4
+    17: 5
+
+
+
+
+
